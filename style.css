@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
 /*-----------------1st container---------- */
@@ -201,6 +203,8 @@ li {
   position: absolute;
   top: 20px;
   left: 190px;
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g1 {
   position: absolute;
@@ -246,6 +250,8 @@ li {
   position: absolute;
   top: 20px;
   left: 320px;
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g2 {
   position: absolute;
@@ -257,6 +263,9 @@ li {
   position: absolute;
   top: 20px;
   left: 460px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g3 {
   position: absolute;
@@ -269,6 +278,9 @@ li {
   position: absolute;
   top: 20px;
   left: 600px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g4 {
   position: absolute;
@@ -280,6 +292,9 @@ li {
   position: absolute;
   top: 20px;
   left: 760px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g5 {
   position: absolute;
@@ -292,6 +307,9 @@ li {
   position: absolute;
   top: 20px;
   left: 930px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g6 {
   position: absolute;
@@ -303,6 +321,9 @@ li {
   position: absolute;
   top: 20px;
   left: 1060px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g7 {
   position: absolute;
@@ -315,6 +336,9 @@ li {
   position: absolute;
   top: 20px;
   right: 250px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g8 {
   position: absolute;
@@ -327,6 +351,9 @@ li {
   position: absolute;
   top: 20px;
   right: 70px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g9 {
   position: absolute;
@@ -338,6 +365,9 @@ li {
   position: absolute;
   top: 20px;
   left: 65px;
+
+  border-radius: 50%;
+  border: 2px solid red;
 }
 #g10 {
   position: absolute;
@@ -391,7 +421,7 @@ li {
   width: 60%;
   height: 140px;
   top: 440px;
-  z-index: +1;
+  z-index: -1;
   left: 300px;
   border: 1px solid black;
   border-radius: 5px;
@@ -447,6 +477,8 @@ li {
   height: 300px;
   background-color: white;
   top: 600px;
+  padding-top: 10px;
+  z-index: -1;
 }
 #div7 {
   position: absolute;
@@ -618,7 +650,359 @@ li {
 #img24 {
   position: absolute;
   left: 1300px;
- top: 0;
-  height: 30   0px;
+  top: 0;
+  height: 30 0px;
   width: 200px;
 }
+
+#img20:hover {
+  transform: scale(1.1);
+}
+#img21:hover {
+  transform: scale(1.1);
+}
+#img22:hover {
+  transform: scale(1.1);
+}
+
+#img23:hover {
+  transform: scale(1.1);
+}
+
+/*-----------------6th container---------- */
+#container6 {
+  position: relative;
+  width: 100%;
+  height: 290px;
+  background-color: white;
+  top: 610px;
+  padding-top: 10px;
+  z-index: -1;
+}
+#div12 {
+  position: absolute;
+
+  background-color: white;
+  background-image: url(./image/indianflag.jpg);
+  background-repeat: round;
+
+  width: 33%;
+  height: 280px;
+  z-index: +1;
+  text-align: center;
+}
+#img25 {
+  position: absolute;
+  right: 20%;
+  top: 30px;
+}
+#smf13 {
+  position: absolute;
+  left: 20px;
+  padding-top: 45px;
+}
+#rs9499 {
+  position: absolute;
+  left: 0;
+
+  top: 40px;
+  padding-top: 40px;
+}
+#rs14999 {
+  position: absolute;
+  right: 7px;
+  top: 34px;
+  font-size: 17px;
+  text-decoration: line-through;
+  font-weight: lighter;
+
+  padding-top: 50px;
+}
+#detail1 {
+  position: absolute;
+  bottom: 95px;
+  left: 20px;
+  font-weight: lighter;
+}
+
+#div13 {
+  position: absolute;
+
+  background-color: white;
+  background-image: url(./image/indianflag.jpg);
+  background-repeat: round;
+
+  width: 33%;
+  height: 280px;
+  z-index: +1;
+  text-align: center;
+  right: 33.5%;
+}
+#img26 {
+  position: absolute;
+  right: 5%;
+  top: 100px;
+}
+#smf14 {
+  position: absolute;
+  left: 20px;
+  padding-top: 45px;
+}
+#rs24490 {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  padding-top: 40px;
+}
+
+#detail2 {
+  position: absolute;
+  bottom: 94px;
+  left: 20px;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+#div14 {
+  position: absolute;
+
+  background-color: white;
+  background-image: url(./image/indianflag.jpg);
+  background-repeat: round;
+
+  width: 33%;
+  height: 280px;
+  z-index: +1;
+  text-align: center;
+  right: 0;
+}
+#img27 {
+  position: absolute;
+  right: 10%;
+  top: 50px;
+}
+#smf15 {
+  position: absolute;
+  left: 20px;
+  padding-top: 45px;
+}
+#rs12240 {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  padding-top: 40px;
+}
+
+#detail3 {
+  position: absolute;
+  bottom: 94px;
+  left: 20px;
+  font-weight: lighter;
+  padding-top: 40px;
+}
+
+/*-----------------7th container---------- */
+#container7 {
+  position: relative;
+  width: 100%;
+  height: 390px;
+  background-color: wheat;
+  top: 610px;
+  padding-top: 10px;
+  z-index: -1;
+}
+#div15 {
+  position: absolute;
+}
+
+/*-----------------8th container---------- */
+/*-----------------footer---------- */
+
+#container8 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #1b1b42;
+  top: 610px;
+  padding-top: 10px;
+  z-index: -1;
+}
+#div16 {
+  position: absolute;
+ 
+  height: 330px;
+  width: 200px;
+  z-index: +1;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+#about {
+  margin-left: 10px;
+  left: 50%;
+  color: gray;
+}
+.abot {
+  color: white;
+  display: block;
+  padding: bottom 7px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abot:hover {
+  text-decoration: underline;
+}
+
+#div17 {
+  position: absolute;
+
+  height: 330px;
+  width: 200px;
+  z-index: +1;
+  left: 300px;
+
+  margin-top: 20px;
+}
+#help1 {
+  margin-left: 10px;
+  left: 50%;
+  color: gray;
+}
+.abot {
+  color: white;
+  display: block;
+  padding: bottom 7px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abot:hover {
+  text-decoration: underline;
+}
+
+#div18 {
+  position: absolute;
+  
+  height: 330px;
+  width: 200px;
+  z-index: +1;
+  left: 500px;
+
+  margin-top: 20px;
+}
+#consumer {
+  margin-left: 10px;
+  left: 50%;
+  color: gray;
+}
+.abot {
+  color: white;
+  display: block;
+  padding: bottom 7px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abot:hover {
+  text-decoration: underline;
+}
+
+#div19 {
+  position: absolute;
+ 
+  height: 330px;
+  width: 200px;
+  z-index: -1;
+  left: 720px;
+
+  margin-top: 20px;
+}
+#social {
+  margin-left: 10px;
+  left: 50%;
+  color: gray;
+}
+.abot {
+  color: white;
+  display: block;
+  padding: bottom 7px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abot:hover {
+  text-decoration: underline;
+}
+
+#div20 {
+  position: absolute;
+ 
+  height: 330px;
+  width: 240px;
+  z-index: -1;
+  left: 850px;
+
+  margin-top: 20px;
+}
+#mailus {
+  margin-left: 12px;
+  left: 50%;
+  color: gray;
+}
+#address {
+  color: white;
+  display: block;
+  padding: bottom 7px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 13px;
+}
+#line{
+  position: absolute;
+  
+  width: 20px;
+  height: 300px;
+  right: 660px;
+  margin-top: 20px;
+  z-index: +1;
+
+}
+#dashline{
+  position: absolute;
+  display: block;
+  left: 0;
+  margin-top: 19px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  color: gray;
+
+}
+
+#div21 {
+  position: absolute;
+  
+ 
+  height: 330px;
+  width: 320px;
+  z-index: -1;
+  right: 100px;
+
+  margin-top: 20px;
+}
+#officeaddress {
+  margin-left: 12px;
+  left: 50%;
+  color: gray;
+}
+#address2 {
+  color: white;
+  display: block;
+  padding: bottom 8px;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 13px;
+  
+}
+#numblast{
+  color: blue;
+  display: inline;
+
+}
+
+
