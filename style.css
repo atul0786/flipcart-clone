@@ -2,8 +2,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
-  overflow-x: auto;
-  overflow-y: auto;
 }
 
 /*-----------------1st container---------- */
@@ -14,6 +12,7 @@ body {
 
   border: 0;
   top: 0;
+  z-index: +1;
 }
 
 #div1 {
@@ -193,7 +192,7 @@ a {
   height: 110px;
   padding: 5px;
   box-sizing: border-box;
-  z-index: -1;
+  /*z-index: -1; */
 }
 li {
   list-style: none;
@@ -211,39 +210,6 @@ li {
   top: 80px;
   left: 180px;
   font-weight: bold;
-}
-#img2:hover {
-  color: red;
-}
-#g1:hover {
-  color: red;
-}
-#g2:hover {
-  color: blue;
-}
-#g3:hover {
-  color: blue;
-}
-#g4:hover {
-  color: blue;
-}
-#g5:hover {
-  color: blue;
-}
-#g6:hover {
-  color: blue;
-}
-#g7:hover {
-  color: blue;
-}
-#g8:hover {
-  color: blue;
-}
-#g9:hover {
-  color: blue;
-}
-#g10:hover {
-  color: blue;
 }
 
 #img3 {
@@ -375,7 +341,36 @@ li {
   left: 50px;
   font-weight: bold;
 }
-
+#g1:hover {
+  color: blue;
+}
+#g2:hover {
+  color: blue;
+}
+#g3:hover {
+  color: blue;
+}
+#g4:hover {
+  color: blue;
+}
+#g5:hover {
+  color: blue;
+}
+#g6:hover {
+  color: blue;
+}
+#g7:hover {
+  color: blue;
+}
+#g8:hover {
+  color: blue;
+}
+#g9:hover {
+  color: blue;
+}
+#g10:hover {
+  color: blue;
+}
 /*-----------------3rd container---------- */
 
 #container3 {
@@ -478,7 +473,7 @@ li {
   background-color: white;
   top: 600px;
   padding-top: 10px;
-  z-index: -1;
+  /*z-index: -1;*/
 }
 #div7 {
   position: absolute;
@@ -486,7 +481,7 @@ li {
   background-color: white;
   width: 15%;
   height: 300px;
-  z-index: +1;
+  /*z-index: +1;*/
   text-align: center;
 }
 #tpo {
@@ -829,7 +824,7 @@ li {
 }
 #div16 {
   position: absolute;
- 
+
   height: 330px;
   width: 200px;
   z-index: +1;
@@ -880,7 +875,7 @@ li {
 
 #div18 {
   position: absolute;
-  
+
   height: 330px;
   width: 200px;
   z-index: +1;
@@ -906,7 +901,7 @@ li {
 
 #div19 {
   position: absolute;
- 
+
   height: 330px;
   width: 200px;
   z-index: -1;
@@ -932,7 +927,7 @@ li {
 
 #div20 {
   position: absolute;
- 
+
   height: 330px;
   width: 240px;
   z-index: -1;
@@ -953,31 +948,28 @@ li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 13px;
 }
-#line{
+#line {
   position: absolute;
-  
+
   width: 20px;
   height: 300px;
   right: 660px;
   margin-top: 20px;
   z-index: +1;
-
 }
-#dashline{
+#dashline {
   position: absolute;
   display: block;
   left: 0;
   margin-top: 19px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  color: gray;
 
+  color: gray;
 }
 
 #div21 {
   position: absolute;
-  
- 
+
   height: 330px;
   width: 320px;
   z-index: -1;
@@ -997,12 +989,280 @@ li {
   font-size: small;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 13px;
-  
 }
-#numblast{
+#numblast {
   color: blue;
   display: inline;
-
+}
+hr {
+  border: 0.5px solid gray;
+  position: relative;
+  top: 330px;
 }
 
+.fotterbottom {
+  position: relative;
+  color: white;
+  display: inline;
+  top: 340px;
+  padding: 20px;
+  margin-left: 100px;
+}
+#since {
+  color: white;
+  position: absolute;
+  font-size: 18px;
+  bottom: 4px;
+  right: 290px;
+  font-weight: lighter;
+}
+#paymentscard {
+  position: absolute;
+  bottom: 23px;
+  right: 120px;
+}
 
+/*---------------- fashion container 2---------*/
+
+#fashion-container2 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  top: 50px;
+  background-color: white;
+  z-index: +1;
+  box-sizing: border-box;
+  border-bottom: 5px solid white;
+
+}
+#fdiv3 {
+  position: absolute;
+  top: 0px;
+  
+}
+
+#fg1,
+#fg2,
+#fg3,
+#fg4,
+#fg5,
+#fg6,
+#fg7,
+#fg8,
+#fg9 {
+  display: inline;
+  padding: 30px;
+  margin-left: 10px;
+}
+#fg1:hover {
+  color: blue;
+}
+#fg2:hover {
+  color: blue;
+}
+#fg3:hover {
+  color: blue;
+}
+#fg4:hover {
+  color: blue;
+}
+#fg5:hover {
+  color: blue;
+}
+#fg6:hover {
+  color: blue;
+}
+#fg7:hover {
+  color: blue;
+}
+#fg8:hover {
+  color: blue;
+}
+#fg9:hover {
+  color: blue;
+}
+
+#elemenu {
+  position: absolute;
+  left: 30px;
+
+  width: 20%;
+  height: 550px;
+  background-color: white;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+li {
+  display: inline;
+}
+
+#li3:hover #elemenu {
+  display: block;
+}
+
+#li3:hover #elemenu2 {
+  display: block;
+}
+#li3:hover #elemenu3 {
+  display: block;
+}
+#li3:hover #elemenu4 {
+  display: block;
+}
+
+#li3:hover #elemenu5 {
+  display: block;
+}
+
+.ml1 {
+  padding: 0;
+  margin: 10px;
+}
+.mobilelist {
+  position: relative;
+  top: -40px;
+}
+
+#elemenu2 {
+  position: absolute;
+  left: 300px;
+
+  width: 20%;
+  height: 550px;
+  background-color: whitesmoke;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml2 {
+  padding: 0;
+  margin: 10px;
+}
+
+.mobileacce {
+  position: relative;
+}
+
+#mbicon0,
+#mbicon,
+#mbicon2,
+#mbicon3 {
+  position: absolute;
+  padding-top: 10px;
+}
+
+#elemenu3 {
+  position: absolute;
+  left: 550px;
+
+  width: 20%;
+  height: 550px;
+  background-color: white;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml3 {
+  padding: 0;
+  margin: 10px;
+}
+
+.laptops1 {
+  position: relative;
+}
+
+#mbicon0,
+#mbicon,
+#mbicon2,
+#mbicon3 {
+  position: absolute;
+  padding-top: 10px;
+}
+
+#elemenu4 {
+  position: absolute;
+  left: 830px;
+
+  width: 20%;
+  height: 550px;
+  background-color: whitesmoke;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml4 {
+  padding: 0;
+  margin: 10px;
+}
+
+.Televisions {
+  position: relative;
+}
+
+#mbicon0,
+#mbicon,
+#mbicon2,
+#mbicon3 {
+  position: absolute;
+  padding-top: 10px;
+}
+
+#elemenu5 {
+  position: absolute;
+  right: 25px;
+
+  width: 20%;
+  height: 550px;
+  background-color: white;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml5 {
+  padding: 0;
+  margin: 10px;
+}
+
+.Featured {
+  position: relative;
+}
+
+#mbicon0,
+#mbicon,
+#mbicon2,
+#mbicon3 {
+  position: absolute;
+  padding-top: 10px;
+}
+/*---------------------fashion 3rd container---------*/
+
+#fashion-container3{
+  position: relative;
+  background-color: cadetblue;
+  top: 100px;
+  height: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#fashimg1{
+  position: absolute;
+  top: 5px;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+}
