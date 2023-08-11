@@ -1033,12 +1033,10 @@ hr {
   z-index: +1;
   box-sizing: border-box;
   border-bottom: 5px solid white;
-
 }
 #fdiv3 {
   position: absolute;
   top: 0px;
-  
 }
 
 #fg1,
@@ -1249,9 +1247,153 @@ li {
   position: absolute;
   padding-top: 10px;
 }
+
+#elemenu6 {
+  position: absolute;
+  left: 30px;
+
+  width: 20%;
+  height: 550px;
+  background-color: white;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+li {
+  display: inline;
+}
+
+#li4:hover #elemenu6 {
+  display: block;
+}
+
+#li4:hover #elemenu7 {
+  display: block;
+}
+#li4:hover #elemenu8 {
+  display: block;
+}
+#li4:hover #elemenu9 {
+  display: block;
+}
+
+#li4:hover #elemenu10 {
+  display: block;
+}
+
+.ml6 {
+  padding: 0;
+  margin: 10px;
+}
+.tvlist1 {
+  position: relative;
+  top: -40px;
+}
+
+#elemenu7 {
+  position: absolute;
+  left: 300px;
+
+  width: 20%;
+  height: 550px;
+  background-color: whitesmoke;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml7 {
+  padding: 0;
+  margin: 10px;
+}
+
+.tvlist2 {
+  position: relative;
+}
+
+#elemenu8 {
+  position: absolute;
+  left: 550px;
+
+  width: 20%;
+  height: 550px;
+  background-color: white;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml8 {
+  padding: 0;
+  margin: 10px;
+}
+
+.tvlist3 {
+  position: relative;
+}
+
+#elemenu9 {
+  position: absolute;
+  left: 830px;
+
+  width: 20%;
+  height: 550px;
+  background-color: whitesmoke;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml9 {
+  padding: 0;
+  margin: 10px;
+}
+
+.tvlist4 {
+  position: relative;
+}
+
+#elemenu10 {
+  position: absolute;
+  right: 25px;
+
+  width: 20%;
+  height: 550px;
+  background-color: white;
+  border: 2px solid white;
+  padding: 0;
+  margin: 0;
+  top: 49px;
+  display: none;
+}
+
+.ml10 {
+  padding: 0;
+  margin: 10px;
+}
+
+.tvlist5 {
+  position: relative;
+}
+
+
+
+
+
+
+
+
 /*---------------------fashion 3rd container---------*/
 
-#fashion-container3{
+#fashion-container3 {
   position: relative;
   background-color: cadetblue;
   top: 100px;
@@ -1259,7 +1401,7 @@ li {
   width: 100%;
   box-sizing: border-box;
 }
-#fashimg1{
+#fashimg1 {
   position: absolute;
   top: 5px;
   box-sizing: border-box;
