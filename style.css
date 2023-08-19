@@ -1,7 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: white;
+  /*overflow-x: scroll;
+  overflow-y: scroll;
+  width: auto;
+
+  height: auto;
+  overflow-wrap: normal;
+  overflow: scroll;
+  */
 }
 
 /*-----------------1st container---------- */
@@ -10,45 +18,59 @@ body {
   position: relative;
   margin: 0;
 
-  border: 0;
   top: 0;
   z-index: +1;
 }
 
 #div1 {
   position: fixed;
-  background-color: #4c4fed;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 50px;
   width: 100%;
   margin: 0;
   padding: 0;
-  border: 0;
 }
+#aeontext {
+  position: absolute;
+  top: -45px;
+  left: 100px;
+  color: whitesmoke;
+  font-size: 50px;
 
+  font-family: "Audiowide", cursive;
+}
+#aeionfashion {
+  position: absolute;
+  top: -10px;
+  font-family: "Audiowide", cursive;
+  color: whitesmoke;
+}
+#serchproduct {
+  position: absolute;
+  font-size: 30px;
+  left: 650px;
+  top: 10px;
+}
 #img1 {
   position: absolute;
   left: 150px;
-  top: 12px;
+  top: 0px;
 }
-#search2 {
-  position: absolute;
-  background-color: white;
-  color: #4c4fed;
-  font-size: 20px;
-  padding: 5px;
-  padding-left: 40px;
-  padding-right: 10px;
-  left: 600px;
-  top: 8px;
-  font-weight: bold;
-  outline: none;
-  border: none;
-}
-
 #login1 {
   position: absolute;
-  background-color: white;
-  color: #4c4fed;
+  background-color: whitesmoke;
+  color: black;
   font-size: 20px;
   padding: 5px;
   padding-left: 40px;
@@ -59,6 +81,7 @@ body {
   border: none;
   font-family: sans-serif;
   border-radius: 0;
+  border: 1px solid wheat;
 }
 #spn1 {
   font-weight: bold;
@@ -98,8 +121,8 @@ body {
 
 #search1 {
   position: absolute;
-  background-color: white;
-  color: #4c4fed;
+  background-color: whitesmoke;
+  color: black;
   font-size: 20px;
   padding: 5px;
   padding-left: 40px;
@@ -108,39 +131,41 @@ body {
   top: 8px;
   font-weight: bold;
   outline: none;
-  border: none;
+  border: 1px solid wheat;
 }
 #seller1 {
   position: absolute;
-  color: white;
+  color: black;
   font-size: 20px;
   left: 990px;
-  top: 5px;
+  top: 4px;
   text-decoration: none;
+  border: 1px solid wheat;
+  background-color: whitesmoke;
 }
 #cart {
   position: absolute;
-  color: white;
+  color: black;
   font-size: 20px;
   right: 13%;
-  top: 6px;
+  top: 4px;
+  border: 1px solid wheat;
   text-decoration: none;
+  background-color: whitesmoke;
 }
 
 #more {
   position: absolute;
-  color: white;
+  color: black;
   font-size: 20px;
-  right: 20%;
-  top: -5px;
+  right: 19.5%;
+  top: 4px;
+  border-radius: 5px;
   text-decoration: none;
   list-style: none;
-  padding: 20px;
-}
-#cart1 {
-  position: absolute;
-  right: 251px;
-  top: 14px;
+  padding: 10px;
+  border: 1px solid wheat;
+  background-color: whitesmoke;
 }
 a {
   display: block;
@@ -202,8 +227,6 @@ li {
   position: absolute;
   top: 20px;
   left: 190px;
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g1 {
   position: absolute;
@@ -216,8 +239,6 @@ li {
   position: absolute;
   top: 20px;
   left: 320px;
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g2 {
   position: absolute;
@@ -229,9 +250,6 @@ li {
   position: absolute;
   top: 20px;
   left: 460px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g3 {
   position: absolute;
@@ -244,9 +262,6 @@ li {
   position: absolute;
   top: 20px;
   left: 600px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g4 {
   position: absolute;
@@ -258,9 +273,6 @@ li {
   position: absolute;
   top: 20px;
   left: 760px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g5 {
   position: absolute;
@@ -273,9 +285,6 @@ li {
   position: absolute;
   top: 20px;
   left: 930px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g6 {
   position: absolute;
@@ -287,9 +296,6 @@ li {
   position: absolute;
   top: 20px;
   left: 1060px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g7 {
   position: absolute;
@@ -302,9 +308,6 @@ li {
   position: absolute;
   top: 20px;
   right: 250px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g8 {
   position: absolute;
@@ -317,9 +320,6 @@ li {
   position: absolute;
   top: 20px;
   right: 70px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g9 {
   position: absolute;
@@ -331,9 +331,6 @@ li {
   position: absolute;
   top: 20px;
   left: 65px;
-
-  border-radius: 50%;
-  border: 2px solid red;
 }
 #g10 {
   position: absolute;
@@ -378,7 +375,7 @@ li {
 }
 #div4 {
   position: absolute;
-  background-color: whitesmoke;
+  background-color: white;
   width: 100%;
   height: 250px;
   top: 175px;
@@ -394,7 +391,7 @@ li {
 }
 #img14 {
   position: absolute;
-  right: 601px;
+  right: 593px;
 }
 #img15 {
   position: absolute;
@@ -418,7 +415,7 @@ li {
   top: 440px;
   z-index: -1;
   left: 300px;
-  border: 1px solid black;
+  border: 1px solid wheat;
   border-radius: 5px;
 }
 #div6 {
@@ -1037,7 +1034,6 @@ hr {
 #fdiv3 {
   position: absolute;
   top: 0px;
-  
 }
 
 #fg1,
@@ -1093,7 +1089,6 @@ hr {
   margin: 0;
   top: 49px;
   display: none;
-  
 }
 li {
   display: inline;
@@ -1386,9 +1381,6 @@ li {
   position: relative;
 }
 
-
-
-
 #elemenu11 {
   position: absolute;
   left: 30px;
@@ -1524,11 +1516,6 @@ li {
 .men5 {
   position: relative;
 }
-
-
-
-
-
 
 #elemenu16 {
   position: absolute;
@@ -1666,8 +1653,6 @@ li {
   position: relative;
 }
 
-
-
 #elemenu21 {
   position: absolute;
   left: 30px;
@@ -1803,8 +1788,6 @@ li {
 .baby5 {
   position: relative;
 }
-
-
 
 #elemenu26 {
   position: absolute;
@@ -1942,8 +1925,6 @@ li {
   position: relative;
 }
 
-
-
 #elemenu31 {
   position: absolute;
   left: 30px;
@@ -2079,12 +2060,6 @@ li {
 .sbm5 {
   position: relative;
 }
-
-
-
-
-
-
 
 /*---------------------fashion 3rd container---------*/
 
