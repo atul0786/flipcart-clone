@@ -135,37 +135,52 @@ body {
 }
 #seller1 {
   position: absolute;
+  background-color: whitesmoke;
   color: black;
   font-size: 20px;
-  left: 990px;
-  top: 4px;
-  text-decoration: none;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  right: 327px;
+  top: 8px;
+  font-weight: 600;
+  border: none;
+  font-family: sans-serif;
+  border-radius: 0;
   border: 1px solid wheat;
-  background-color: whitesmoke;
 }
 #cart {
   position: absolute;
+  background-color: whitesmoke;
   color: black;
   font-size: 20px;
-  right: 13%;
-  top: 4px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  right: 20px;
+  top: 8px;
+  font-weight: 600;
+  border: none;
+  font-family: sans-serif;
+  border-radius: 0;
   border: 1px solid wheat;
-  text-decoration: none;
-  background-color: whitesmoke;
 }
 
 #more {
   position: absolute;
+  background-color: whitesmoke;
   color: black;
   font-size: 20px;
-  right: 19.5%;
-  top: 4px;
-  border-radius: 5px;
-  text-decoration: none;
-  list-style: none;
-  padding: 10px;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  right: 180px;
+  top: 8px;
+  font-weight: 600;
+  border: none;
+  font-family: sans-serif;
+  border-radius: 0;
   border: 1px solid wheat;
-  background-color: whitesmoke;
 }
 a {
   display: block;
@@ -384,83 +399,14 @@ li {
 #img12 {
   position: absolute;
   left: 0;
+  margin: 1px;
+  width: 100%;
 }
-#img13 {
-  position: absolute;
-  left: 310px;
-}
-#img14 {
-  position: absolute;
-  right: 593px;
-}
-#img15 {
-  position: absolute;
-  right: 19%;
-}
-#img16 {
-  position: absolute;
-  right: 0;
-}
+
+
 
 /*-----------------4th container---------- */
 
-#container4 {
-  position: relative;
-}
-#div5 {
-  position: absolute;
-
-  width: 60%;
-  height: 140px;
-  top: 440px;
-  z-index: -1;
-  left: 300px;
-  border: 1px solid wheat;
-  border-radius: 5px;
-}
-#div6 {
-  position: absolute;
-  right: 150px;
-  top: 0;
-}
-#img17 {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-}
-#img18 {
-  position: absolute;
-  left: 330px;
-  top: 20px;
-}
-#tandc {
-  position: absolute;
-
-  text-align: center;
-  writing-mode: vertical-lr;
-  text-orientation: sideways-right;
-  transform: flip;
-  right: -140px;
-  top: 27px;
-  font-size: 16.5px;
-}
-
-.discount {
-  position: relative;
-  right: -70px;
-  font-size: 20px;
-  top: 12px;
-}
-#spn3 {
-  font-size: 30px;
-}
-#spn4 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: lighter;
-  color: gray;
-  position: relative;
-  top: -8px;
-}
 
 /*-----------------5th container---------- */
 #container5 {
