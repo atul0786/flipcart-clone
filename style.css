@@ -75,12 +75,13 @@ body {
   padding: 5px;
   padding-left: 40px;
   padding-right: 40px;
+  border-radius: 5px;
   left: 800px;
   top: 8px;
   font-weight: 600;
   border: none;
   font-family: sans-serif;
-  border-radius: 0;
+ 
   border: 1px solid wheat;
 }
 #spn1 {
@@ -132,6 +133,8 @@ body {
   font-weight: bold;
   outline: none;
   border: 1px solid wheat;
+  border-radius: 5px;
+
 }
 #seller1 {
   position: absolute;
@@ -146,7 +149,7 @@ body {
   font-weight: 600;
   border: none;
   font-family: sans-serif;
-  border-radius: 0;
+  border-radius: 5px;
   border: 1px solid wheat;
 }
 #cart {
@@ -162,7 +165,7 @@ body {
   font-weight: 600;
   border: none;
   font-family: sans-serif;
-  border-radius: 0;
+  border-radius: 5px;
   border: 1px solid wheat;
 }
 
@@ -179,7 +182,7 @@ body {
   font-weight: 600;
   border: none;
   font-family: sans-serif;
-  border-radius: 0;
+  border-radius: 5px;
   border: 1px solid wheat;
 }
 a {
