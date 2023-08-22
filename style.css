@@ -22,6 +22,21 @@ body {
   z-index: +1;
 }
 
+#login1:hover {
+  color: white;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #div1 {
   position: fixed;
   background: #7b4397; /* fallback for old browsers */
@@ -81,7 +96,7 @@ body {
   font-weight: 600;
   border: none;
   font-family: sans-serif;
- 
+
   border: 1px solid wheat;
 }
 #spn1 {
@@ -97,6 +112,7 @@ body {
   position: absolute;
   background-color: white;
   border-bottom: 5px solid whitesmoke;
+  width: 100%;
   width: 300px;
   height: 300px;
   top: 50px;
@@ -106,6 +122,9 @@ body {
   padding-bottom: 20px;
   text-align: left;
   display: none;
+  box-shadow: -5px -0px 5px rgba(0, 0, 0, 1),
+  5px 5px 5px rgba(0, 0, 0, 1);
+
 }
 #login3:hover #lgnmenu {
   display: block;
@@ -134,7 +153,6 @@ body {
   outline: none;
   border: 1px solid wheat;
   border-radius: 5px;
-
 }
 #seller1 {
   position: absolute;
@@ -152,6 +170,35 @@ body {
   border-radius: 5px;
   border: 1px solid wheat;
 }
+#seller1:hover {
+  color: white;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#cart:hover {
+  color: white;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #cart {
   position: absolute;
   background-color: whitesmoke;
@@ -168,6 +215,20 @@ body {
   border-radius: 5px;
   border: 1px solid wheat;
 }
+.sm1u:hover {
+  color: white;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 #more {
   position: absolute;
@@ -177,12 +238,13 @@ body {
   padding: 5px;
   padding-left: 40px;
   padding-right: 40px;
+  border-radius: 5px;
   right: 180px;
   top: 8px;
   font-weight: 600;
   border: none;
   font-family: sans-serif;
-  border-radius: 5px;
+
   border: 1px solid wheat;
 }
 a {
@@ -194,27 +256,58 @@ a {
   border-radius: 5px;
 }
 .sub {
-  padding-top: 0;
-  margin-top: 0;
-  padding-bottom: 20px;
-  padding-top: 3px;
+  padding-left: 0;
+  padding: 10px;
+  padding-bottom: 15px;
+  margin-left: 0;
+  text-align: left;
   border-top: 1px solid whitesmoke;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.sub:hover {
+  color: white;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#more:hover {
+  color: white;
+  background: #7b4397; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc2430,
+    #7b4397
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #submore {
   position: absolute;
-  width: 300px;
-  height: 180px;
   background-color: white;
-  top: 55px;
-  right: -180px;
-
-  padding-top: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
-
-  display: none;
   border-bottom: 5px solid whitesmoke;
+  width: 260px;
+  height: 160px;
+  top: 45px;
+  right: -100px;
+
+  border-radius: 5px;
+  padding-bottom: 20px;
+  text-align: left;
+  display: none;
 }
 
 #more:hover #submore {
@@ -406,10 +499,7 @@ li {
   width: 100%;
 }
 
-
-
 /*-----------------4th container---------- */
-
 
 /*-----------------5th container---------- */
 #container5 {
@@ -976,7 +1066,7 @@ hr {
   height: 50px;
   top: 50px;
   background-color: white;
-  z-index: +1;
+
   box-sizing: border-box;
   border-bottom: 5px solid white;
 }
@@ -2019,6 +2109,7 @@ li {
   height: 400px;
   width: 100%;
   box-sizing: border-box;
+  z-index: -1;
 }
 #fashimg1 {
   position: absolute;
@@ -2026,4 +2117,5 @@ li {
   box-sizing: border-box;
   margin-left: 5px;
   margin-right: 5px;
+  z-index: -1;
 }
